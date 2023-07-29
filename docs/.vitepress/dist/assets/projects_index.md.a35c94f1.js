@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./chunks/framework.ecf4210c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"projects/index.md","filePath":"projects/index.md"}'),a={name:"projects/index.md"};function o(n,s,c,d,i,p){return t(),r("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};
