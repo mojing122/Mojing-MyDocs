@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MoJing's Docs",
-  lang: "zh",
+  lang: "zh-CN",
   description: "Mojing's documentation site",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
@@ -56,9 +56,11 @@ export default defineConfig({
         ]
       }
     ],
-
+    //lastUpdated: false,
     lastUpdatedText: '上次更新',
     returnToTopLabel: '返回顶部',
+    darkModeSwitchLabel: '切换主题',
+    sidebarMenuLabel: '目录',
     outline: {
       level: "deep", // 右侧大纲标题层级
       label: "文章目录", // 右侧大纲标题文本配置
